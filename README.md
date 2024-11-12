@@ -53,7 +53,7 @@ data, give your interpretation.</h4>
 </p>
 
 <h4>
-  Apply several regularization techniques on your architecture then compare the obtained result
+  5-Apply several regularization techniques on your architecture then compare the obtained result
 with the first model.
 </h4>
 <p>    implémentation d'un modèle de régression PyTorch avec régularisation L2 (weight decay) et Dropout.  entraînement du modèle sur un ensemble de données et comparaison des performances (perte et précision) du modèle avec et sans régularisation, en affichant les courbes de perte et de précision pour les ensembles d'entraînement et de test à travers les époques. Les résultats sont visualisés à l'aide de graphiques montrant l'évolution de la perte et de la précision pour les deux versions du modèle.</p>
