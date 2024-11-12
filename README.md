@@ -64,7 +64,7 @@ with the first model.
 <P>interpretation:
   Lorsque les nouveaux hyperparamètres ont été utilisés, le modèle a montré une amélioration des résultats.
 </P>
-<h2>part two</h2>
+<h2>part two multi class classifocation</h2>
 <h4>Apply the per-processing technics and the given dataset to clean,
 standardization/normalization of the data.</h4>
 <h6>ptraitement des donnees</h6>
