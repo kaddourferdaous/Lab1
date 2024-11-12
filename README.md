@@ -26,6 +26,10 @@ regression task. </h4>
 5. **Conversion en tenseurs PyTorch** : Transformation des ensembles d’entraînement et de test en tenseurs PyTorch, prêts à être utilisés pour l’entraînement d’un réseau de neurones profond avec PyTorch.
 </p>
 <p>
+  <h4>Part two multi class classification:</h4>
+  <h6>
+    
+  </h6>
 Initialisation des couches : Le modèle est constitué de trois couches linéaires :
 
 Une première couche cachée (fc1) qui reçoit en entrée les données normalisées.
@@ -60,3 +64,46 @@ with the first model.
 <P>interpretation:
   Lorsque les nouveaux hyperparamètres ont été utilisés, le modèle a montré une amélioration des résultats.
 </P>
+<h2>part two</h2>
+<h4>Apply the per-processing technics and the given dataset to clean,
+standardization/normalization of the data.</h4>
+<h6>ptraitement des donnees</h6>
+<p>
+  conversion  des champs de types categorique en type numérique
+  suppression des ids
+  suppression des lignes en double et lignes vides
+  Remplacer les valeures aberrantes par le moyen
+  standarisation des donnees
+</p>
+
+<h4>
+  Apply the Exploratory data analysis technics to understand and visualize the given Dataset.
+</h4>
+<h6>visualisation</h6>
+<p>
+un graohe qui montre la distribution de   Tool wear [min]' selon 'Failure Type'
+un graphe qui montre la distribution de 'Air temperature [K]' selon 'Failure Type
+</p>
+<h4>4. Establish a Deep Neural network Architecture by using PyTorch library to handle the multi
+class classification task.</h4>
+<p>
+  Création d'un modèle de réseau de neurones profond avec deux couches cachées, utilisant l'activation ReLU pour une tâche de classification multiclasses.
+Normalisation des données, les divise en ensembles d'entraînement et de test, et les convertit en tenseurs PyTorch.
+Entraînement du  modèle sur 50 époques avec la fonction de perte CrossEntropyLoss et l'optimiseur Adam.
+Évaluation de  la précision du modèle sur l'ensemble de test en comparant les prédictions avec les étiquettes réelles.
+
+
+</p>
+<h4>5. By using GridSearch tool from sklearn library chose the best hyper-parameters (learning rate ,
+optimizers, epoch, model architecture, etc) that will give an efficient model.</h4>
+<p>
+ Le Charge du jeu de données Iris et le divise en ensembles d’entraînement et de test.
+Standardisation des caractéristiques pour améliorer la performance du modèle.
+Définition d'un perceptron multicouche (MLPClassifier) comme modèle de base pour la classification.
+Utilisation de  RandomizedSearchCV pour effectuer une recherche aléatoire sur une grille de paramètres afin de trouver les meilleurs hyperparamètres pour le modèle.
+Affichage des meilleurs paramètres trouvés, la précision obtenue en validation croisée et la précision finale sur les données de test.
+</p>
+<h4>6. Visualize the two graph (Loss / Epochs) and (Accuracy / Epochs) for both training and test
+data, give your interpretation.</h4>
+<p> Lorsqu'on a utilisé les nouveaux hyperparamètres, le modèle a donné des résultats plus précis.</p>
+<h4>7. Calculate metrics like accuracy, sensitivity, f1 score, etc, on both training and test dataset.</h4>
